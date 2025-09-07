@@ -3,3 +3,28 @@
   themes: 
 synthwave;
 };
+
+/* Améliorations pour mobile */
+@media (max-width: 640px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input, select, button {
+    -webkit-appearance: none;
+    border-radius: 0.5rem;
+  }
+  
+  /* Améliorer la lisibilité sur mobile */
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  /* Espacement optimisé pour les doigts */
+  .btn {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
